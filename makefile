@@ -6,9 +6,11 @@ format:
 	black *.py
 	
 lint:
-	pylint --disable=R,C hello.py
+	pylint --disable=R,C script.py
 	
 test:
-	python -m pytest --vv --con=hello test_hello.py
+	python -m pytest test_*.py
+
+all : install lint test format
 
 
