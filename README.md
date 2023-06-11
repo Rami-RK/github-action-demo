@@ -1,2 +1,2 @@
 # github-action-demo
-This  repo is a for demonstration of Github actions and tricks
+This  repo is created for the demonstration of Github actions and tricks.
