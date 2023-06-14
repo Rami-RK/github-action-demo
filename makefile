@@ -9,7 +9,7 @@ lint:
 	pylint --disable=R,C script.py
 	
 test:
-	python -m pytest test_*.py
+	python -m pytest tests/test_*.py
 
 all : install lint test format
 
